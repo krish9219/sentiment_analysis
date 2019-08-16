@@ -11,7 +11,21 @@ id - Unique ID of each review </br>
 sentiment - Sentiment of the review; 1 for positive reviews and 0 for negative reviews </br>
 review - Text of the review
 
+![center](./images/data.png)
+
 ### Libraries used
 
-Pandas, Numpy, sklearn, NLTK
+Pandas, Numpy, sklearn, NLTK, BeautifulSoup
 
+
+#### Cleaning
+
+![center](./images/cleaning.png)
+
+### Model
+
+![center](./images/result.png)
+
+### Result
+
+A basic Random Forest model has predicted the sentiment with an accuracy of **84%** and my Out of Bag score is **83%**. Tuning model further with RandomsearchCV improves model performance further.
